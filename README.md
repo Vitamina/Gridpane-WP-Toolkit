@@ -20,5 +20,5 @@ chmod +x ~/wp-core-checks.sh
 ```
 4. Run it
 ```
-~/wp-core-checks.sh
+bash wp-core-checks.sh
 ```
