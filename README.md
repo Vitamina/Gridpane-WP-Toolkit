@@ -121,3 +121,10 @@ chmod +x wp-plugin-checksums.sh
 ```
 bash wp-plugin-checksums.sh
 ```
+
+🔐 Security Notes
+* These scripts do NOT modify files
+* They only scan and report
+* Safe for production servers
+* Designed for GridPane environment
+
