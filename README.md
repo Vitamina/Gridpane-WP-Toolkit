@@ -22,3 +22,26 @@ chmod +x ~/wp-core-checks.sh
 ```
 bash wp-core-checks.sh
 ```
+
+##find-php-upload-folder.sh
+
+This script searches WordPress upload directories for suspicious PHP files.
+It helps identify potential malicious uploads.
+
+It uses the following command:
+find /var/www/domain.com/htdocs/wp-content/uploads/ -type f -name "*.php"
+
+
+1. Create the file
+```
+nano ~/wp-php-uploads.sh
+```
+2. Paste the script code into the file
+3. Make script executable
+```
+chmod +x ~/wp-core-checks.sh
+```
+4. Run it
+```
+bash wp-core-checks.sh
+```
