@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATE=$(date +%Y%m%d)
-OUTPUT_DIR=/output
+OUTPUT_DIR="$(dirname "$0")/output"
 OUTPUT_FILE=${OUTPUT_DIR}/bad-checksums-${DATE}.txt
 
 # Clear previous results
