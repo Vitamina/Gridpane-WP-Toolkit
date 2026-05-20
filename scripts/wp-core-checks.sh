@@ -4,6 +4,8 @@ DATE=$(date +%Y%m%d)
 OUTPUT_DIR="$(dirname "$0")/output"
 OUTPUT_FILE=${OUTPUT_DIR}/bad-checksums-${DATE}.txt
 
+mkdir -p "$OUTPUT_DIR"
+
 # Clear previous results
 > "$OUTPUT_FILE"
 
